@@ -59,3 +59,58 @@ else
     console.log("Signal not Working");
 }
 
+//switch case
+let day = 8;
+
+switch(day)
+{
+    case 1:
+        console.log("Monday");
+        break;
+    case 2:
+        console.log("Tuesday");
+        break;
+    case 3:
+        console.log("Wednesday");
+        break;
+    case 4:
+        console.log("Thursday");
+        break;
+    case 5:
+        console.log("friday");
+        break;
+    case 6:
+        console.log("Saturady");
+        break;
+    case 7:
+        console.log("Sunday");
+        break;
+    default:
+        console.log("Invalid day");
+        
+}
+
+let num1 = 10;
+let num2 = 20;
+let op = "+"; 
+
+switch(op)
+{
+    case "+":
+        console.log(num1+num2);
+        break;
+    case "-":
+        console.log(num1-num2);
+        break;
+    case "*":
+        console.log(num1*num2);
+        break;
+    case "/":
+        console.log(num1/num2);
+        break;
+    default:
+        console.log("Wrong Operator");
+}
+
+
+
