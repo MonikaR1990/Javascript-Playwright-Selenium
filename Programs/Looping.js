@@ -79,3 +79,20 @@ for(let i = 1; i<=5; i++)
 
     console.log(i);
 }
+
+
+//Nested Loop
+for(let i =1; i<=5; i++) //Outer for loop
+{
+   let row = "";
+   for(let j = 1; j<=i; j++) //Inner for loop
+   {
+        row += "*"; //row = "" + *       **                  // *
+   }                                                         // * *
+   console.log(row);
+
+}
+
+
+
+   
