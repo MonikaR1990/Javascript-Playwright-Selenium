@@ -1,0 +1,17 @@
+{
+  "name": "cucumbertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js features/**/*.feature --import steps/**/*.js --import hooks/**/*.js --format progress --format json:reports/cucumber-report.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.1",
+    "playwright": "^1.59.1"
+  }
+}

@@ -1,0 +1,487 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;verify-that-user-able-to-login-successful-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Verify that user able to login successful with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3876198700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3932399698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "user enters username and password",
+            "match": {
+              "location": "steps\\LoginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 176432299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 815506999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be navigate to the user home page",
+            "match": {
+              "location": "steps\\LoginSteps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 266144799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 539257499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;verify-that-user-get-invalid-error-for-invalid-login",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify that user get invalid error for invalid login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 859649499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2527341098
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user enters invalid username and password",
+            "match": {
+              "location": "steps\\LoginSteps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 87317499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493387099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should see the login error",
+            "match": {
+              "location": "steps\\LoginSteps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75365298
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393903599
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-multiple-users",
+        "keyword": "Scenario Outline",
+        "line": 23,
+        "name": "Login with multiple users",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 682278899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2266619600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters username \"srees123@gmail.com\" and password \"srees@123\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85158399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 717503898
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should see \"success\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 260220199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 508648700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-multiple-users",
+        "keyword": "Scenario Outline",
+        "line": 24,
+        "name": "Login with multiple users",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 748279000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2538094599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters username \"wrong@gmail.com\" and password \"wrong@123\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80086300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 415240700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should see \"error\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76097199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 393793900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-multiple-users",
+        "keyword": "Scenario Outline",
+        "line": 25,
+        "name": "Login with multiple users",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 698054899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3257965599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters username \"abc@gmail.com\" and password \"abc@123\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76764800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 417997999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should see \"error\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80448598
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 342759500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-with-multiple-users",
+        "keyword": "Scenario Outline",
+        "line": 26,
+        "name": "Login with multiple users",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 754630100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "user navigate to the login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2477257399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user enters username \"xyz@gmail.com\" and password \"xyz@123\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82076799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "user click the Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 411968999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should see \"error\"",
+            "match": {
+              "location": "steps\\LoginSteps.js:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85061798
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 402388299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
